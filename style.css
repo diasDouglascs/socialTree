@@ -1,0 +1,56 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--body-bg-color);
+}
+
+div{
+    width: 400px;
+    margin: 0 auto;
+}
+
+div.head{
+    width: 200px;
+    height: 320px;
+}
+
+
+div img.profile{
+    width: 200px;
+    padding: 3px;
+    border: solid var(--purple) 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+div.head p{
+    color: var(--purple);
+    text-align: center;
+}
+
+div.links{
+    width: 400px;
+}
+
+div.links a{
+    text-decoration: none;
+    color: var(--purple);
+    display: block;
+    padding: 5px;
+    margin: 20px 50px;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    border: solid var(--purple) 2px;
+    border-radius: 5%;
+}
